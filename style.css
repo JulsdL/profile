@@ -1,0 +1,83 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+body{
+  font-family: Space Grotesk;
+  background-color: rgb(240, 235, 227);
+  color: #7D9D9C;
+  padding: 30;
+  text-align: center;
+  }
+
+h1,h2,h3 {
+  font-family: Space Mono;
+  color: #576F72;
+  text-align: center;
+  }
+
+li {
+  display : inline;
+}
+
+ul{
+  padding : 0;
+}
+
+#profile-pic {
+  width:200;
+  height:200;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 0 25px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #eaeaea;
+
+}
+
+a{
+  text-decoration: none;
+  color: #576F72;
+  font-size: 18;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s ease;
+  padding-bottom: 25px;
+}
+
+.link {
+  display: block;
+}
+
+a:hover {
+  color: blue;
+}
